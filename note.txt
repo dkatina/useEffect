@@ -1,0 +1,18 @@
+
+React's Component LifeCycle
+
+-Mount: Is when the component gets added to the DOM
+    - 1st Render
+
+
+-Update: Re-render
+    - setState functions trigger re-renders
+
+
+-UnMount: When the compenent is removed from the DOM
+
+
+useEffect: is how we handle side effects
+- API call when you first load a compenent to grab all user data to display users(happen on mount)
+- evaluate a state Variable (Update)
+- clear data functions (unMount)
